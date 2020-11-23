@@ -10,8 +10,8 @@ assignees: ''
 
 ### Checklist
 <!-- Please ensure you've completed the following steps by replacing [ ] with [x] -->
-* [ ] I have followed the [Contribution Guidelines](../../blob/main/CONTRIBUTING.md) and [Code of Conduct](../../blob/main/CODE_OF_CONDUCT.md).
-* [ ] I have commented my code following the [Styleguide](../../blob/main/STYLEGUIDE.md).
+* [ ] I have followed the [Contribution Guidelines](../blob/main/CONTRIBUTING.md) and [Code of Conduct](../blob/main/CODE_OF_CONDUCT.md).
+* [ ] I have commented my code following the [Styleguide](../blob/main/STYLEGUIDE.md).
 * [ ] I have searched the issue tracker for an issue that matches the one I want to file, without success.
 
 ### Your Environment
