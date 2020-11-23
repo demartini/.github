@@ -5,8 +5,8 @@ Which issue(s) this PR fixes (If applicable): #
 
 ### Checklist
 <!-- Please ensure you've completed the following steps by replacing [ ] with [x] -->
-* [ ] I have followed the [Contribution Guidelines](../blob/main/CONTRIBUTING.md) and [Code of Conduct](../blob/main/CODE_OF_CONDUCT.md).
-* [ ] I have commented my code following the [Styleguide](../blob/main/STYLEGUIDE.md).
+* [ ] I have followed the [Contribution Guidelines](https://github.com/demartini/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/demartini/.github/blob/main/CODE_OF_CONDUCT.md).
+* [ ] I have commented my code following the [Styleguide](https://github.com/demartini/.github/blob/main/STYLEGUIDE.md).
 * [ ] Relevant documentation is changed or added.
 * [ ] This is **NOT A BREAKING CHANGE**.
 

@@ -21,7 +21,7 @@ We also recommend that you read [How to Contribute to Open Source](https://opens
 
 ## Code of Conduct
 
-Please note that this project have a [code of conduct](./CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Please note that this project have a [code of conduct](https://github.com/demartini/.github/blob/main/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## How can I contribute?
 
@@ -67,4 +67,4 @@ This is our preferred process for opening a PR on GitHub:
 
 ## Style Guides
 
-To ensure code quality and make sure other people can understand your changes, you have to document your code. For documentation and general code cleanliness, we ask that you [follow the appropriate styleguide](./STYLEGUIDE.md) for the language you're working in.
+To ensure code quality and make sure other people can understand your changes, you have to document your code. For documentation and general code cleanliness, we ask that you [follow the appropriate styleguide](https://github.com/demartini/.github/blob/main/STYLEGUIDE.md) for the language you're working in.
