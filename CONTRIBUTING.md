@@ -1,70 +1,150 @@
-# Contributing <!-- omit in toc -->
+# Contributing
 
-First of all, thanks for thinking of contributing to this project! 👏
+Thank you for taking the time to contribute to an open source project.
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Before contributing, please read the [Code of Conduct](https://github.com/demartini/.github/blob/main/CODE_OF_CONDUCT.md). By participating, you agree to follow it.
 
-As a contributor, here are the guidelines we would like you to follow:
+## Before you start
 
-**Table of Contents**
-- [Code of Conduct](#code-of-conduct)
-- [How can I contribute?](#how-can-i-contribute)
-  - [Give Feedback on Issues](#give-feedback-on-issues)
-  - [Fix bugs and implement features](#fix-bugs-and-implement-features)
-- [Using the issue tracker](#using-the-issue-tracker)
-  - [Bug report](#bug-report)
-  - [Feature request](#feature-request)
-- [Submitting a Pull Request](#submitting-a-pull-request)
-- [Style Guides](#style-guides)
+Before opening an issue or pull request:
 
-We also recommend that you read [How to Contribute to Open Source](https://opensource.guide/how-to-contribute).
+1. Search existing issues and pull requests to avoid duplicates.
+2. Check the project's documentation and contribution guidelines.
+3. For significant changes, open or comment on an issue first to discuss the proposed approach.
 
-## Code of Conduct
+## Reporting bugs
 
-Please note that this project have a [code of conduct](https://github.com/demartini/.github/blob/main/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Use the **Bug Report** issue template for reproducible problems.
 
-## How can I contribute?
+A useful bug report should include:
 
-### Give Feedback on Issues
+- A clear description of the problem.
+- The expected behavior.
+- The actual behavior.
+- Steps to reproduce the problem.
+- Relevant environment and version information.
+- Logs, screenshots, or other supporting information when useful.
 
-Some issues are created without information requested in the [Bug report guideline](#bug-report). Help make them easier to resolve by adding any relevant information.
+## Suggesting features
 
-Issues with the **`enhancement`** label are meant to discuss the implementation of new features. Participating in the discussion is a good opportunity to get involved and influence our future direction.
+Use the **Feature Request** issue template for proposed improvements or new functionality.
 
-### Fix bugs and implement features
+Describe:
 
-Confirmed bugs and ready-to-implement features are marked with the **`help wanted`** label. Post a comment on an issue to indicate you would like to work on it and to request help from the **maintainers** and the **community**.
+- The problem or use case.
+- The proposed solution.
+- Alternatives you considered.
+- Any relevant context, examples, or screenshots.
 
-## Using the issue tracker
+Feature requests are subject to the project's scope, technical constraints, and maintainer review.
 
-The issue tracker is the channel for [bug reports](#bug-report), [features requests](#feature-request) and [submitting pull requests](#submitting-a-pull-request) only.
+## Pull requests
 
-Before opening an issue or a Pull Request, please use the **GitHub issue search** to make sure the bug or feature request hasn't been already reported or fixed.
+Keep pull requests focused on a single purpose and avoid unrelated changes.
 
-### Bug report
+Before starting significant work, discuss the change with the maintainers unless the project explicitly says otherwise.
 
-A good bug report shouldn't leave others needing to chase you for more information. Please try to be as detailed as possible in your report and fill the information requested in the **Bug report template**.
+A typical workflow is:
 
-### Feature request
+1. Fork the repository.
+2. Create a focused branch from the default branch.
+3. Make your changes.
+4. Run the project's required checks.
+5. Commit your changes using the Conventional Commits format.
+6. Push your branch to your fork.
+7. Open a pull request using the provided template.
 
-Feature requests are welcome, but take a moment to find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible and fill the information requested in the **Feature request template**.
+### Pull request expectations
 
-## Submitting a Pull Request
+A pull request should:
 
-Good pull requests, whether patches, improvements, or new features, are a fantastic help. They should remain focused in scope and avoid containing unrelated commits.
+- Clearly explain what changed and why.
+- Include tests or other validation when appropriate.
+- Update relevant documentation when behavior or public APIs change.
+- Avoid unrelated formatting or refactoring.
+- Identify breaking changes and include migration guidance when necessary.
 
-**Please ask first** before embarking on any significant pull requests (e.g. implementing features, refactoring code), otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project.
+## Commit messages
 
-If you have never created a pull request before, welcome 🎉 😄. [Here is a great tutorial](https://opensource.guide/how-to-contribute/#opening-a-pull-request) on how to send one. 😃
+Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/).
 
-This is our preferred process for opening a PR on GitHub:
+The basic format is:
 
-1. Fork this repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
+```
+<type>(<scope>): <description>
+```
 
-## Style Guides
+The scope is optional.
 
-To ensure code quality and make sure other people can understand your changes, you have to document your code. For documentation and general code cleanliness, we ask that you [follow the appropriate styleguide](https://github.com/demartini/.github/blob/main/STYLEGUIDE.md) for the language you're working in.
+### Types
+
+| Type | Purpose |
+| --- | --- |
+| `build` | Changes to the build system or external dependencies. |
+| `chore` | Maintenance or repository changes that do not affect application behavior. |
+| `ci` | Changes to continuous integration and automation. |
+| `docs` | Documentation-only changes. |
+| `feat` | A new feature. |
+| `fix` | A bug fix. |
+| `perf` | A performance improvement. |
+| `refactor` | A code change that neither fixes a bug nor adds a feature. |
+| `revert` | Reverts a previous commit. |
+| `style` | Changes that affect formatting or code style without changing behavior. |
+| `test` | Adding or updating tests. |
+
+### Subject
+
+The subject should:
+
+- Use the imperative, present tense.
+- Start with a lowercase letter.
+- Be concise.
+- Not end with a period.
+
+For example:
+
+```
+fix(auth): handle expired sessions
+```
+
+### Body
+
+Use the body when additional context is useful. Explain the motivation for the change and describe relevant behavior or implementation details.
+
+### Breaking changes
+
+Breaking changes must be clearly identified with `BREAKING CHANGE:` in the footer or with a `!` after the type or scope.
+
+For example:
+
+```
+feat(api)!: remove deprecated endpoint
+```
+
+or:
+
+```
+feat(api): remove deprecated endpoint
+
+BREAKING CHANGE: The deprecated endpoint is no longer available.
+```
+
+### Reverts
+
+A revert should use the `revert` type and reference the commit being reverted.
+
+For example:
+
+```
+revert: feat(auth): add social login
+```
+
+## Code style
+
+Follow the project's existing tooling and conventions. Do not introduce unrelated formatting changes.
+
+When a project has a repository-specific style guide, that guide takes precedence over these general guidelines.
+
+## Questions
+
+If you are unsure whether a change is appropriate, open an issue or discuss it with the project maintainers before investing significant time in implementation.
