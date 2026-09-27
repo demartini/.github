@@ -1,42 +1,32 @@
-<!-- First of all thanks so much for taking the time to open a pull request and help the project. It's because of people like you that we love working on this project. -->
+## Description
 
-Which issue(s) this PR fixes (If applicable): #
-<!-- Link to relevant GitHub issue if applicable. -->
+<!-- Describe what changed and why. Link related issues when applicable. -->
 
-### Checklist
-<!-- Please ensure you've completed the following steps by replacing [ ] with [x] -->
-* [ ] I have followed the [Contribution Guidelines](https://github.com/demartini/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/demartini/.github/blob/main/CODE_OF_CONDUCT.md).
-* [ ] I have commented my code following the [Styleguide](https://github.com/demartini/.github/blob/main/STYLEGUIDE.md).
-* [ ] Relevant documentation is changed or added.
-* [ ] This is **NOT A BREAKING CHANGE**.
+## Type of change
 
-### What kind of change does this PR introduce?
-<!-- Please check one or more that apply to this PR -->
+- [ ] Bug fix
+- [ ] Feature
+- [ ] Refactoring
+- [ ] Performance improvement
+- [ ] Build or CI change
+- [ ] Documentation
+- [ ] Other
 
-* [ ] Bugfix.
-* [ ] Feature.
-* [ ] Code style update (formatting).
-* [ ] Refactoring (no functional changes).
-* [ ] Build or CI related changes.
-* [ ] Documentation content changes.
-* [ ] Project automation.
-* [ ] Other...
-  * [ ] Please describe:
+## Validation
 
-### Description of Change
-<!-- Please explain the changes you made here. -->
+<!-- Describe the tests, checks, or manual verification performed. -->
 
-### What is the current behavior?
-<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
+## Breaking changes
 
-### What is the new behavior?
-<!-- Please describe the new behavior after your modifications. -->
+- [ ] This pull request introduces a breaking change.
 
-### Does this PR introduce a breaking change?
-<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
+<!-- If checked, describe the impact and migration path. -->
 
-### Screenshots
-<!-- If appropriate or helpful. -->
+## Checklist
 
-### Other Information
-<!-- Please describe other information here. -->
+- [ ] I have read and followed the contribution guidelines.
+- [ ] I have read and followed the Code of Conduct.
+- [ ] I have followed the project's existing code style and conventions.
+- [ ] I have added or updated tests when appropriate.
+- [ ] I have updated relevant documentation when necessary.
+- [ ] I have kept this pull request focused and free of unrelated changes.
