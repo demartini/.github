@@ -1,30 +1,25 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: '[Feature Request] Title...'
-labels: 'enhancement'
-assignees: ''
-
+about: Suggest an improvement or new feature
+title: "[Feature]: "
+labels: enhancement
+assignees: ""
 ---
-<!-- Fill in the relevant information below to help triage your issue. -->
 
-### Checklist
-<!-- Please ensure you've completed the following steps by replacing [ ] with [x] -->
-* [ ] I have followed the [Contribution Guidelines](https://github.com/demartini/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/demartini/.github/blob/main/CODE_OF_CONDUCT.md).
-* [ ] I have commented my code following the [Styleguide](https://github.com/demartini/.github/blob/main/STYLEGUIDE.md).
-* [ ] I have searched the issue tracker for an issue that matches the one I want to file, without success.
+<!-- Before submitting, search existing issues to avoid duplicates. -->
 
-### Problem Description
-<!-- Is your feature request related to a problem? Please add a clear and concise description of what the problem is. -->
+## Problem
 
-### Proposed Solution
-<!-- Describe the solution you'd like in a clear and concise manner. -->
+<!-- What problem or use case would this feature address? -->
 
-### Alternatives Considered
-<!-- A clear and concise description of any alternative solutions or features you've considered. -->
+## Proposed solution
 
-### Screenshots
-<!-- If appropriate or helpful. -->
+<!-- Describe the solution you would like. -->
 
-### Additional Information
-<!-- Add any other context about the problem here. -->
+## Alternatives considered
+
+<!-- Describe alternative solutions or workarounds you considered. -->
+
+## Additional context
+
+<!-- Add examples, screenshots, links, or other relevant information. -->
